@@ -1,6 +1,6 @@
-# Sistem Pakar Diagnosa Kerusakan Komputer
+# Sistem Pakar Diagnosa Kerusakan Komputer Console
 
-## Deskripsi dikit
+## Deskripsi singkat
 Program ini adalah sistem pakar sederhana berbasis Python yang digunakan untuk mendiagnosa kerusakan komputer berdasarkan gejala yang dipilih pengguna.
 
 Sistem menggunakan pendekatan rule-based (berbasis aturan) dengan mencocokkan gejala yang dipilih dengan data kerusakan yang tersedia.
