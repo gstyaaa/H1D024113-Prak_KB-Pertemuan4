@@ -1,6 +1,6 @@
-# Sistem Pakar Diagnosa Kerusakan Komputer (Console)
+# Sistem Pakar Diagnosa Kerusakan Komputer
 
-## Deskripsi
+## Deskripsi dikit
 Program ini adalah sistem pakar sederhana berbasis Python yang digunakan untuk mendiagnosa kerusakan komputer berdasarkan gejala yang dipilih pengguna.
 
 Sistem menggunakan pendekatan rule-based (berbasis aturan) dengan mencocokkan gejala yang dipilih dengan data kerusakan yang tersedia.
@@ -68,45 +68,10 @@ Solusi: Bersihkan pin RAM...
 
 ------------------------------------------------------------
 ```
-
----
-
-## Kelebihan
-- Sederhana dan mudah dipahami
-- Cocok untuk pembelajaran sistem pakar dasar
-- Tidak membutuhkan library tambahan
-
----
-
-## Kekurangan (PENTING)
-- Hanya 5 gejala → akurasi rendah
-- Tidak ada bobot gejala (semua dianggap sama penting)
-- Tidak bisa menangani banyak kasus kompleks
-- Masih rule-based, belum pakai metode seperti:
-  - Certainty Factor
-  - Forward Chaining
-  - Machine Learning
-
----
-
-## Saran Pengembangan
-
-- Tambahkan metode Certainty Factor (CF)
-- Perbanyak gejala
-- Tambahkan bobot tiap gejala
-- Buat versi web (Flask/Laravel)
-- Gunakan database (MySQL/MongoDB)
-
----
-
 ## Cara Menjalankan
 
 ```bash
-python nama_file.py
+python kerusakan_komputer.py
 ```
 
 ---
-
-## Kesimpulan
-
-Program ini cocok sebagai implementasi dasar sistem pakar, tetapi belum cukup akurat untuk digunakan dalam diagnosa nyata.
